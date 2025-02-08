@@ -33,6 +33,7 @@ if selected_task == 1:
         radius = (space_circle/3.14)**0.5
         diameter = radius*2
         len_circle = 2 * 3.14 * radius
+        print(diameter, len_circle)
 
     elif selected_second_task =='c':
         #c
