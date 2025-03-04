@@ -47,21 +47,21 @@
 # print(max_seq)
 
 #c
-input_list = [4, 3, 3, 2, 2, 2, 1]
+# input_list = [4, 3, 3, 2, 2, 2, 1]
 
-counts = {}
-for num in input_list:
-    if num in counts:
-        counts[num] += 1
-    else:
-        counts[num] = 1
+# counts = {}
+# for num in input_list:
+#     if num in counts:
+#         counts[num] += 1
+#     else:
+#         counts[num] = 1
 
-for i in range(len(input_list)):
-    for j in range(i + 1, len(input_list)):
-        if counts[input_list[i]] < counts[input_list[j]]:
-            input_list[i], input_list[j] = input_list[j], input_list[i]
+# for i in range(len(input_list)):
+#     for j in range(i + 1, len(input_list)):
+#         if counts[input_list[i]] < counts[input_list[j]]:
+#             input_list[i], input_list[j] = input_list[j], input_list[i]
 
-print("Отсортированный список:", input_list)
+# print("Отсортированный список:", input_list)
 
 
         
