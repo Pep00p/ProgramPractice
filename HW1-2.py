@@ -29,11 +29,15 @@ if selected_task == 1:
 
     elif selected_second_task == 'b':
         #b)
-        space_circle = float(input("Введите площадь: "))
-        radius = (space_circle/3.14)**0.5
-        diameter = radius*2
-        len_circle = 2 * 3.14 * radius
-        print(diameter, len_circle)
+        space_sirc= int(input())
+        pi = 3.14
+        rad= (space_sirc/pi)**0.5
+        diam = rad*2
+        leight = 2 * pi * rad
+        print("Диаметр: ",diam,"Длина: ", leight)
+
+
+
 
     elif selected_second_task =='c':
         #c
