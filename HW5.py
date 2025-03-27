@@ -39,7 +39,6 @@
 #         temp[num] += 1
 #     else:
 #         temp[num] = 1
-
 # print(temp)
 
 #C
@@ -63,8 +62,8 @@
 
 #E
 # dict1 = {'x': 10, 'y': 20, 'z': 30}
-# tuples_list = []
+# tuple_list = []
 # for i in dict1:
-#     tuples_list.append((i, dict1[i]))
-
-# print("Список кортежей:", tuples_list)
+#     tuple+
+# _list.append((i, dict1[i]))
+# print(tuple_list)
